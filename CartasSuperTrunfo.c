@@ -11,7 +11,6 @@ int main() {
     float area1;    
     float pib1;      
     int turismo1;    
-
     
     int populacao2;  
     float area2;     
