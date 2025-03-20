@@ -28,10 +28,10 @@ int main() {
     printf("\nInforme os dados da Primeira Carta:\n");
 
     printf("Informe o Estado (ex: A, B, C...): \n");
-    scanf(" %c", &estado1); 
+    scanf("%c", &estado1); 
 
     printf("Informe o Nome da Cidade: \n");
-    scanf(" %[^\n]", cidade1); 
+    scanf("%s\n", cidade1); 
 
     printf("Informe a População: \n");
     scanf("%d", &populacao1);
@@ -52,10 +52,10 @@ int main() {
     printf("\nInforme os dados da Segunda Carta:\n");
 
     printf("Informe o Estado (ex: A, B, C...): \n");
-    scanf(" %c", &estado2);  
+    scanf("%c", &estado2);  
 
     printf("Informe o Nome da Cidade: \n");
-    scanf(" %[^\n]", cidade2);  
+    scanf("%s\n", cidade2);  
 
     printf("Informe a População: \n");
     scanf("%d", &populacao2);
